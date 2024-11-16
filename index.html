@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div><i class="fa-solid fa-brazilian-real-sign"></i></div>
+            <p id="don">Personal</p>
+            <p id="don1">|</p>
+            <p id="don">Business</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container1">
+            <h1 id="heading1">BPS Currency Converter</h1>
+        </div>
+
+        <div class="container2">
+            <h1 id="heading2">Check live foreign currency exchange rates</h1>
+        </div>
+
+        <div class="container3">
+            <div class="box">
+                <input class="input" type="text" placeholder=" Enter Amount">
+                <i id="font" class="fa-solid fa-equals"></i>
+                <div class="from">
+                    <p>From</p>
+                    <div class="flagapi">
+                        <img id="xxx" src="https://flagsapi.com/US/flat/64.png">
+                        <select class="select" name="from">
+                        </select>
+                    </div>
+                </div>
+                <i id="font" class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <div class="to">
+                    <p>To</p>
+                    <div class="flagapi">
+                        <img id="xxx" src="https://flagsapi.com/IN/flat/64.png">
+                        <select class="select" name="to">
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container4">
+            <div class="button">
+                <button class="btn">Get Exchance Rate</button>
+            </div>
+            <div class="winner hide">
+                <p class="paraline"></p>
+            </div>
+        </div>
+    </main>
+
+    <main>
+        <div class="container5">
+            <img class="img" src="mobile.png">
+
+            <div class="heading">
+                <h1>Manage your</h1>
+                <h1>currencies on the go</h1>
+                <h1>with the BPS app.</h1>
+            </div>
+        </div>
+    </main>
+
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
